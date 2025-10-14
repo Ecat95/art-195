@@ -34,11 +34,14 @@ body {
 
 /* links */
 a {
-    color: #3c8453;
+    color: #843c83;
+    background-color: lavender;
+    margin: 40px;
+    
 }
 
 a:hover {
-    color: #bcaa96;
+    color: #20b54d;
     text-decoration: none;
 }
 
