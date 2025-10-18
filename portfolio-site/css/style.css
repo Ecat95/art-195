@@ -224,11 +224,7 @@ left: 5px;
     column-gap: 20px;
 }
 
-/* Education
-------------------*/
 
-/* Footer 
------------------*/
 footer {
     background: #222;
     color: #d3d4d6;
@@ -246,11 +242,3 @@ footer {
     display: inline-block;
     margin-left: 10px;
 }
-
-/* .socials img {
-    width: 32px;
-}
-.socials img:hover {
-opacity: 0.5;
-
-} */
