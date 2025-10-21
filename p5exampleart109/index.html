@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emily Stegmeir | Art Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class = "home">
+    <!-- //  INTRO  // -->
+  <div class ="content-wrapper">
+    <div class="content-bg">
+      <header>
+        <!-- Start content edits below this line. -->
+        <h1>Emily Stegmeir</h1>
+        <h2>Art Portfolio</h2>
+
+        <!-- End content edits here. -->
+      </header>
+    <body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">^ . ^</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <!-- <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li> -->
+        </ul>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+      <!-- //  ABOUT ME  // -->
+      <main>
+        <!-- Start content edits below this line. -->
+        <p>In my works there is a theme of poking at reality/everyday life though a fantastical world. The works are currently use blender, and after-effects as the main programs in use. I am interested in continuing and building on the unreality of my works.</p>
+        <p>To see more of my work, check out my <a href="portfolio.html"> Artworks</a>. Thanks for stopping by!</p>
+
+        <!-- End content edits here. -->
+      </main>
+    </div>
+  </div>
+    <!-- //  FOOTER INFO, SOCIAL MEDIA  // -->
+    <footer>
+      <!-- Start content edits below this line. -->
+      <!-- <p>© 2025 by Emily Stegmeir | <a href="mailto:email@example.com">email@example.com</a></p>  -->
+      <p>© 2025 by Emily Stegmeir | </p>
+
+
+      <!-- Add or remove any networks. -->
+        <!-- <ul class="socials">
+       <li>
+          <a href="https://www.youtube.com/" target="_blank"><img src="images/icon-logo-youtube.png" alt="youtube"></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/" target="_blank"><img src="images/icon-logo-linkedin.png" alt="LinkedIn"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank"><img src="images/icon-logo-instagram.png" alt="Instagram"></a>
+        </li>
+      </ul> -->
+      <!-- End content edits here. -->
+    </footer>
+  
+</html>
