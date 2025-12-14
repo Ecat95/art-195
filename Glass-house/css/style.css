@@ -14,7 +14,7 @@ html {
 }
 
 h1 {
-    background-color: darkolivegreen;
+    background-color: rgb(113, 167, 185);
     /* background: #222; */
     color: #fcfdfd;
     /* display: flex; */
@@ -29,14 +29,14 @@ h1 {
 
 body {
     margin: 10px;
-    background-color: rgba(176, 219, 173, 0.873);
+    background-color: rgba(173, 204, 219, 0.902);
 }
 
 a {
 
-    color: #3c8453;
+  
     text-decoration: none;
-    background: #3c8453;
+    background: green;
     color: #f6f6f6;
     text-decoration: none;
     text-transform: uppercase;
