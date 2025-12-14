@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass House</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Glass House</h1>
+  <h2>The project 
+    . The viewer can use the WASD keys to move around.</h2>  
+
+ <div id="button">
+<a href="index.html">PUSH</a>
+</div>
+<details>
+<summary>Artist Statement</summary>
+<p>
+The work is 
+. The 3D figures are made in blender with a simple feel. The controllable land of the project that holds everything and lets the viewer move is A-Frame. The A-Frame lets everything be laid out for the viewer to look around. The viewer can go left or right from the starting point and see a few of the outdoor dangers in a space.  
+</p>
+
+</details>
+
+</body>
+</html>
