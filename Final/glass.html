@@ -19,8 +19,8 @@
       <a-asset-item id="house" src="assets/housewip3.glb"></a-asset-item>
 
 
-<!-- <img id="skybox" src="assets/puresky.jpg">
-<img id="floor" src="assets/floor.jpg"> -->
+ <img id="skybox" src="assets/puresky.jpg">
+<!-- <img id="floor" src="assets/floor.jpg"> --> -->
 
  <a-asset-item id="rock" src="assets/rock.glb"></a-asset-item>
 
@@ -113,7 +113,8 @@
     <a-entity gltf-model="#tree" position="45 0 -10" scale="2 2 2"></a-entity>
     <a-entity gltf-model="#tree" position="49 0 -20" scale="2 2 2"></a-entity>
 
-    <a-sky color="#6fc1d5"></a-sky>
+    <!-- <a-sky color="#6fc1d5"></a-sky> -->
+    <a-sky src="#skybox" rotation="0 -90 0"></a-sky>
   </a-scene>
 
 
